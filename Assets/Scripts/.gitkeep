@@ -1,0 +1,31 @@
+# Scripts Directory
+
+This directory contains all C# scripts for the Music Room VR project.
+
+## Contents:
+- Interaction scripts
+- Audio management
+- VR controller scripts
+- Game management scripts
+
+## Guidelines:
+1. Follow C# naming conventions:
+   - PascalCase for class names
+   - camelCase for variables
+2. Organize scripts by functionality
+3. Keep scripts focused and single-responsibility
+4. Document public methods and important logic
+5. Use regions for better code organization
+
+## Structure Example:
+/Scripts
+  /DrumKit
+    - DrumController.cs       # Handles drum hit detection and response
+    - DrumStick.cs           # VR controller drumstick behavior
+    - DrumAudioManager.cs    # Manages drum sound playback
+  /Interaction
+    - VRInteractor.cs        # General VR interaction handling
+    - GrabHandler.cs         # Object grabbing logic
+  /Management
+    - GameManager.cs         # Overall game state management
+    - AudioManager.cs        # Global audio system management
