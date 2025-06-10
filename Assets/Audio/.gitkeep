@@ -1,0 +1,36 @@
+# Audio Directory
+
+This directory contains all audio assets for the Music Room VR project.
+
+## Contents:
+- Drum hit samples
+- Ambient sounds
+- Effect sounds
+- Music tracks (if needed)
+
+## Guidelines:
+1. Use high-quality audio formats (.wav preferred for samples)
+2. Organize drum sounds by type:
+   - Kick drums
+   - Snares
+   - Cymbals
+   - Toms
+3. Include multiple velocity layers for realistic drum sounds
+4. Keep files named consistently (e.g., "kick_vel1.wav", "snare_vel2.wav")
+5. Optimize audio file length - trim silence
+
+## Structure Example:
+/Audio
+  /DrumKit
+    /Kick
+      - kick_soft.wav
+      - kick_medium.wav
+      - kick_hard.wav
+    /Snare
+      - snare_soft.wav
+      - snare_medium.wav
+      - snare_hard.wav
+  /Ambient
+    - room_tone.wav
+  /Effects
+    - stick_hit.wav
