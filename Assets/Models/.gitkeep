@@ -1,0 +1,25 @@
+# Models Directory
+
+This directory is for storing all 3D models used in the Music Room VR project.
+
+## Contents:
+- Drum kit components (drums, cymbals, stands)
+- Room furniture and decorations
+- Any additional instruments for future expansion
+
+## Guidelines:
+1. Use appropriate file formats (.fbx or .obj preferred)
+2. Keep models optimized for VR performance
+3. Organize complex models in subdirectories
+4. Name files descriptively (e.g., "drum_snare_01.fbx", "cymbal_ride_01.fbx")
+5. Include both high-poly (for reference) and low-poly (for game) versions if needed
+
+## Structure Example:
+/Models
+  /DrumKit
+    - bass_drum.fbx
+    - snare.fbx
+    - hihat.fbx
+  /Environment
+    - room_walls.fbx
+    - floor.fbx
