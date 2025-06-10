@@ -1,0 +1,30 @@
+# Materials Directory
+
+This directory contains all materials and shaders used in the Music Room VR project.
+
+## Contents:
+- Material assets (.mat files)
+- Textures (albedo, normal, metallic, roughness maps)
+- Custom shaders
+
+## Guidelines:
+1. Use descriptive naming (e.g., "drum_metal_chrome.mat", "cymbal_brass.mat")
+2. Organize textures in sets:
+   - diffuse/albedo
+   - normal
+   - metallic/roughness
+   - emission (if needed)
+3. Keep texture sizes optimized for VR (prefer power of 2 dimensions)
+4. Use material instances for variations
+
+## Structure Example:
+/Materials
+  /DrumKit
+    - drum_shell_material.mat
+    - cymbal_brass_material.mat
+    /Textures
+      - drum_shell_albedo.png
+      - drum_shell_normal.png
+  /Environment
+    - wall_material.mat
+    - floor_material.mat
